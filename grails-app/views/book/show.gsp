@@ -6,6 +6,8 @@
 		<meta name="layout" content="main">
 		<g:set var="entityName" value="${message(code: 'book.label', default: 'Book')}" />
 		<title><g:message code="default.show.label" args="[entityName]" /></title>
+                <export:resource />
+                <r:require module="export"/>
 	</head>
 	<body>
 		<a href="#show-book" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
