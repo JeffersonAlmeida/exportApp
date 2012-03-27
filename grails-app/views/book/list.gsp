@@ -10,6 +10,13 @@
                 <r:require module="export"/>
 	</head>
 	<body>
+          
+                
+                <div class="paginateButtons">
+                     <export:formats formats="['xml', 'html', 'json']" />
+                </div>
+                
+
 		<a href="#list-book" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div class="nav" role="navigation">
 			<ul>
@@ -48,5 +55,6 @@
 				<g:paginate total="${bookInstanceTotal}" />
 			</div>
 		</div>
+                
 	</body>
 </html>
