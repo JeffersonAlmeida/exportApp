@@ -13,7 +13,7 @@
           
                 
                 <div class="paginateButtons">
-                     <export:formats formats="['xml', 'html', 'json']" />
+                  <export:formats action="generateFile" formats="['xml', 'html', 'json']" />
                 </div>
                 
 

@@ -1,8 +1,8 @@
 <%@ page import="exportapp.Book" %>
 
-<export:resource />
-<r:require module="export"/>
 
+<r:require module="export"/>
+<export:resource />
 
 <div class="fieldcontain ${hasErrors(bean: bookInstance, field: 'title', 'error')} required">
 	<label for="title">
